@@ -1,6 +1,6 @@
 # webscrapy
 
-A web scraping tool to extract and collect data from website
+A web scraping tool to extract and collect data from a website
 
 ## Installing & Uninstalling Dependencies Using Virtualenv
 
@@ -12,7 +12,7 @@ $ deactivate # deactivate virtualenv
 $ rm -rf venv # uninstall dependencies
 ```
 
-* You need to activate/deactivate virtualenv everytime if you install the dependencies using virtualenv and you can keep your environment clean
+* You need to activate/deactivate virtualenv every time if you install the dependencies using virtualenv and you can keep your environment clean
 
 ## Installing & Uninstalling Dependencies Using setup.py
 
@@ -35,7 +35,7 @@ $ cat dependencies.txt | xargs rm -rf # uninstall dependencies
 
 ```
 -h, --help         show this help message and exit
--n, --next         scrape next urls (next urls = urls which has same prefix with URL)
+-n, --next         scrape next urls (next urls = urls which has the same prefix with URL)
 -m MAX, --max MAX  max number of next urls to scrape (max number of next urls = infinite when not using -m)
 ```
 
