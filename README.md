@@ -12,6 +12,8 @@ $ deactivate # deactivate virtualenv
 $ rm -rf venv # uninstall dependencies
 ```
 
+* You need to activate/deactivate virtualenv everytime if you install the dependencies using virtualenv and you can keep your environment clean
+
 ## Installing & Uninstalling Dependencies Using setup.py
 
 ```
@@ -19,7 +21,6 @@ $ python3 setup.py install --user --prefix= --record dependencies.txt # install 
 $ cat dependencies.txt | xargs rm -rf # uninstall dependencies
 ```
 
-* You need to activate/deactivate virtualenv everytime if you install the dependencies using virtualenv and you can keep your environment clean
 * You can install dependencies by setup.py if you want to install dependencies in your environment as default
 
 ## How To Run
